@@ -1,0 +1,27 @@
+
+<section class="panel panel-padding" >
+	<div id="jeu_intro">
+		<h2 id="jeu_title">Comment jouer ?</h2>
+
+		<p>Le but est de trouver le mot caché ci dessous.</p>
+	</div>
+
+	<div id="jeu_content" ng-controller="GameCtrl">
+
+		Quel est le nom des cavités creusées dans le calcaire qui servaient d'abri aux soldats?
+		<br><br>
+		<input type="text" maxlength="1" class="jeu_input"/>
+		<input type="text" maxlength="1" class="jeu_input"/>
+		<input type="text" maxlength="1" class="jeu_input"/>
+		<input type="text" maxlength="1" class="jeu_input"/>
+		<input type="text" maxlength="1" class="jeu_input"/>
+		<input type="text" maxlength="1" class="jeu_input"/>
+		<input type="text" maxlength="1" class="jeu_input"/>
+		<br>
+		<button class="jeu" ng-click="checkAnswer()">Valider</button>
+	</div>
+
+	<div id="jeu_result">
+
+	</div>
+</section>

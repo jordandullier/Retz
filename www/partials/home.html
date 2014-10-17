@@ -1,0 +1,38 @@
+<section class="panel panel-padding">
+
+    <div class="loader" ng-show="loader"></div>
+    <a class="back" ng-hide="panel==0" ng-click="panel=0"></a>
+	<p>
+		
+		  	<div ng-controller="NavCtrl">
+				<h2>Lieux proches</h2>
+
+				<a href="#spots" ><img class="imagesF" src="../www/img/proche.png" width="100%"></img></a>
+				
+
+				<br/>
+				<br/>
+
+				<h2>Plan des parcours</h2>
+				<a href="#map" ng-click="lancerMap()"><img class="imagesF" src="../www/img/foret.png" width="100%"></img></a>
+
+				<br/>
+				<br/>
+
+				<h2>Jeu concours</h2>
+				<a href="#jeu" ><img class="imagesF" src="../www/img/jeu.png" width="100%"></img></a>
+				<br/>
+				<br/>
+				
+				
+				<h2>Crédits</h2>
+				<a href="#credit" ng-click="modifHeader('Credits')" ng-class="{active: menu=='credit'}"><img class="imagesF" src="../www/img/credit.png" width="100%"></img></a>
+	
+		       
+				
+		    </div>
+		
+	</p>
+</section>
+
+
